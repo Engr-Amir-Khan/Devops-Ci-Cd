@@ -1,5 +1,5 @@
 const express = require("express");
-const { add, multiply, divison } = require("./math");
+const { add, multiply, divison } = require("./math.js");
 
 const app = express();
 

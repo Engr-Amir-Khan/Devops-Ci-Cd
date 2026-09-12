@@ -1,10 +1,4 @@
-const {
-    add,
-    subtract,
-    calculateDiscount,
-    multiply,
-    divison
-} = require("../src/math");
+const {add,subtract,calculateDiscount,multiply,divison} = require("../src/math.js");
 
 describe("Math utilities", () => {
 
@@ -31,6 +25,6 @@ describe("Math utilities", () => {
     });
 
     test("divison two numbers", () => {
-        expect(divison(10, 5)).toBe(50);
+        expect(divison(10, 5)).toBe(2);
     });
 });
